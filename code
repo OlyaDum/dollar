@@ -1,0 +1,13 @@
+def calculate_inflation_rate(initial_cpi, final_cpi):
+    inflation_rate = ((final_cpi - initial_cpi) / initial_cpi) * 100
+    return inflation_rate
+
+# Example calculation using hypothetical CPI data
+initial_cpi = 240    # Initial CPI value
+final_cpi = 250      # Final CPI value
+
+# Calculate the inflation rate
+dollar_inflation_rate = calculate_inflation_rate(initial_cpi, final_cpi)
+
+# Print the result
+print(f"Dollar inflation rate: {dollar_inflation_rate}%")
